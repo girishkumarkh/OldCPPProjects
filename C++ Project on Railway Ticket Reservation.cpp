@@ -1,47 +1,11 @@
-C++
-Project
-Work
-
-RAILWAY TICKET RESERVATION
-Name : Girish Kumar Class : XII ñ A
-School : St.John's International Residential School, Chennai
-Year : 2010-2011
-
-Certified to be the bonafide work done by
-Mr. / Miss GIRISH KUMAR of class	XII ñ A
-in the	COMPUTER LAB	during the year 2010-2011
-Date	P.G.T. in COMPUTER SCIENCE
-St.John's International Residential School, Chennai
-
-Submitted for ALL INDIA SENIOR SCHOOL CERTIFICATE PRACTICAL
-
-Examination held in COMPUTER LAB	at St.John's International Residential School, Chennai.
-
-Examiner
-
-Date
-
-Seal
-
-I would like to express my sincere gratitude to computer science teacher Ms.julya, for her vital support, guidance and encouragement ñ without which this project would not have come forth.
-I would also like to express my gratitude to the school for letting me use the school laboratory.
-
-S.No.	 Contents	 Page No.
-I.	 Objective	 5
-II.	 Introduction	 6
-III.	1	Summary	1	7
-IV.	 Working	 8
-V.	1	Program Code	1	10
-VI.	 Output	 29
-
 To develop a C++project to manage a railway ticket reservation service using object orientedprogramming anddata file handling.
 
-The C++programming language was developed at AT&T Bell laboratories in the early igSoís by Biarne Stroustrup. He found out ìCî lacking for simulating and decided to extend the language by adding features from his favourite language. SimtaSj was one of the earliest object-oriented languages. Biarne Stroustrup called it ìC with classesî originally. The name C++ was coined by Rick Mascitti whereî++îis the C increment operator. Ever since its birth, C++ evolved to cope with problems encountered by users, and through discussions at AT&T.
+The C++programming language was developed at AT&T Bell laboratories in the early igSo‚Äôs by Biarne Stroustrup. He found out ‚ÄúC‚Äù lacking for simulating and decided to extend the language by adding features from his favourite language. SimtaSj was one of the earliest object-oriented languages. Biarne Stroustrup called it ‚ÄúC with classes‚Äù originally. The name C++ was coined by Rick Mascitti where‚Äù++‚Äùis the C increment operator. Ever since its birth, C++ evolved to cope with problems encountered by users, and through discussions at AT&T.
 The major reasons for its success is the support for object oriented programming, which is most near to real world situations.
 However, the maturation of the C++ language is attested by 2 recent events:-
-ï	The formation of an ANSI (American National Standard Institute) C++ committee, and
-ï	The publication of the Annotated C++ Reference Manual by Ellis and Stroustrup. One can easily judge the importance of C++ as given the following lines:-
-ìObject-oriented technology is regarded as the ultimate paradigm for the modeling of the information in the data of logic. The C++ is now shown to fulfill this goalî.
+‚Ä¢	The formation of an ANSI (American National Standard Institute) C++ committee, and
+‚Ä¢	The publication of the Annotated C++ Reference Manual by Ellis and Stroustrup. One can easily judge the importance of C++ as given the following lines:-
+‚ÄúObject-oriented technology is regarded as the ultimate paradigm for the modeling of the information in the data of logic. The C++ is now shown to fulfill this goal‚Äù.
 This is a project basedon train reservation. The program helps us to enter, display or alter the details of different trains.
 Moreover & most importantly the program helps us to reserve or cancel a train ticket.
 The program also helps us to know the present status of a reservedticket, i.e. whether the ticket is confirmedor not.
@@ -53,25 +17,25 @@ This program uses the concept of object-oriented programming and data file handl
 The database is a collection of interrelated data to serve multiple applications. That is database programs create files of information. So we see that files are worked with most, inside the program.
 DBMS
 The software required for the management of data is called as DBMS. It has3 models
-ï	Relation model
-ï	Hierarchical model
-ï	Network model
-RELATIONAL MODELItís based on the concept on relation. Relation is the table that consists of rows and columns. The rows of the table are called tuple and the columns of the table are called attribute. Numbers of rows in the table is called as cardinality. Number of columns in the table is called as degree.
+‚Ä¢	Relation model
+‚Ä¢	Hierarchical model
+‚Ä¢	Network model
+RELATIONAL MODELIt‚Äôs based on the concept on relation. Relation is the table that consists of rows and columns. The rows of the table are called tuple and the columns of the table are called attribute. Numbers of rows in the table is called as cardinality. Number of columns in the table is called as degree.
 HIERARCHICAL MODELIn this type of model, we have multiple records for each record. A particular recordhas one parent
 record. No chid record can exist without parent record. In this, the records are organized in tree (ike structure
 NETWORK MODEL:- In this, the data is representedby collection of records and relationship is represented by (ink or association.
 
 CHARACTERISTICS OF DB MS: -
-ï	It reduces the redundancy
-ï	Reduction of data in inconsistency
-ï	Data sharing
-ï	Data standardization
+‚Ä¢	It reduces the redundancy
+‚Ä¢	Reduction of data in inconsistency
+‚Ä¢	Data sharing
+‚Ä¢	Data standardization
 DIFFERENT TYPES OF FILES: -BASED ON ACCESS:-
-ï	Sequentialfile
-ï	Serial file
-ï	Random (direct access) file BASED ON STORAGE:-
-ï	Text file
-ï	Binary File
+‚Ä¢	Sequentialfile
+‚Ä¢	Serial file
+‚Ä¢	Random (direct access) file BASED ON STORAGE:-
+‚Ä¢	Text file
+‚Ä¢	Binary File
 
 
 
