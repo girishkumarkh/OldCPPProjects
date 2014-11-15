@@ -1,9 +1,3 @@
-/*
-Program Title : Library
-Website: http://www.cbseportal.com
-There is some personal infomation in the introduction and end. Please remove them before use.
-*/
-
 #include
 #include
 #include
