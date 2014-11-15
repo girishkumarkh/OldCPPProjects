@@ -1,14 +1,3 @@
-//////*******************************************************\\\\\\
-//////**** ¯     LIC DATABASE MANAGEMENT SOFTWARE     ®  ****\\\\\\
-//////*******************************************************\\\\\\
-//////Developed By :- Saurabh Khatri & Nikhil Jha            \\\\\\
-//////                XI C                                   \\\\\\
-//////                Greenway Modern Sr. Sec. School        \\\\\\
-//////                Dilshad Garden                         \\\\\\
-//////                Delhi-95                               \\\\\\
-//////e-mail:- sk21393@gmail.com                             \\\\\\
-//////         jha.smartnicks.nikhil@gmail.com               \\\\\\
- 
 /*          HEADER FILES          */
 #include<iostream .h>
 #include<conio .h>
@@ -173,7 +162,7 @@ for(int i=0;i&lt;11;i++)
  
 	gotoxy(25,22);
 	for(int j=0;j<i;j++)
-	cout<<"ÛÛ";
+	cout<<"Ã›Ã›";
  
 	for(int x=10-(i);x>0;x--)
 	cout< <"  ";
@@ -493,39 +482,39 @@ gotoxy(25,5);
 cout<<"TERMS & CONDITIONS FOR ";
 puts(pol.nam);
 gotoxy(12,8);
-cout<<"¯ Min./Max. age at entry  : ";
+cout<<"Â¯ Min./Max. age at entry  : ";
 cout<<pol.minagemat<<" / "<<pol.maxagemat;
 gotoxy(12,10);
-cout<<"¯ Max. maturity age       : "<<pol.maxmatage;
+cout<<"Â¯ Max. maturity age       : "<<pol.maxmatage;
 gotoxy(12,12);
-cout<<"¯ Min./Max. policy term   : "<<pol.minpolt<<" / "<<pol.maxpolt;
+cout<<"Â¯ Min./Max. policy term   : "<<pol.minpolt<<" / "<<pol.maxpolt;
 gotoxy(12,14);
-cout<<"¯ Min./Max. sum assured   : "<<pol.minsumass<<" / ";
+cout<<"Â¯ Min./Max. sum assured   : "<<pol.minsumass<<" / ";
 puts(pol.maxsumass);
 gotoxy(12,16);
-cout<<"¯ Mode allowed            : ";
+cout<<"Â¯ Mode allowed            : ";
 puts(pol.modeall);
 gotoxy(12,18);
-cout<<"¯ Accident Benefit        : "<<pol.acci_ben;
+cout<<"Â¯ Accident Benefit        : "<<pol.acci_ben;
 cout<<" per thousand S.A. per annum";
 gotoxy(12,20);
-cout<<"¯ Compound Interest       : "<<pol.CI;
+cout<<"Â¯ Compound Interest       : "<<pol.CI;
 gotoxy(12,22);
-cout<<"¯ Female Lives            : "<<pol.femliv;
+cout<<"Â¯ Female Lives            : "<<pol.femliv;
 gotoxy(12,24);
-cout<<"¯ Age Proof               : ";
+cout<<"Â¯ Age Proof               : ";
 puts(pol.agepro);
 gotoxy(12,26);
-cout<<"¯ Non Medical (General)   : ";
+cout<<"Â¯ Non Medical (General)   : ";
 puts(pol.nonmed_gen);
 gotoxy(12,28);
-cout<<"¯ Non Medical (Special)   : ";
+cout<<"Â¯ Non Medical (Special)   : ";
 puts(pol.nonmed_spe);
 gotoxy(12,30);
-cout<<"¯ Term rider option	  : ";
+cout<<"Â¯ Term rider option	  : ";
 puts(pol.termrideroptn);
 gotoxy(12,32);
-cout<<"¯ Critical illness rider  : ";
+cout<<"Â¯ Critical illness rider  : ";
 puts(pol.crtcalilnesridr);
  
 cout<<"\n";
@@ -577,11 +566,11 @@ puts(pol.nam);
 gotoxy(25,6);
 cout<<"Please enter the following details : ";
 gotoxy(25,8);
-cout<<"¯ NAME : ";
+cout<<"Â¯ NAME : ";
 gotoxy(25,10);
-cout<<"¯ AGE : ";
+cout<<"Â¯ AGE : ";
 gotoxy(25,12);
-cout<<"¯ ADDRESS : ";
+cout<<"Â¯ ADDRESS : ";
 gotoxy(29,14);
 cout<<"* HOUSE NO. : ";
 gotoxy(29,16);
@@ -592,15 +581,15 @@ gotoxy(29,20);
 cout<<"* STATE : ";
 gotoxy(25,22);
 if(strcmp(pol.nam,"JEEVAN KISHORE"))
-	cout<<"¯ SALARY : ";
+	cout<<"Â¯ SALARY : ";
 gotoxy(25,24);
-cout<<"¯ POLICY AMOUNT : ";
+cout<<"Â¯ POLICY AMOUNT : ";
 gotoxy(25,26);
-cout<<"¯ MODE OF PAYMENT : ";
+cout<<"Â¯ MODE OF PAYMENT : ";
 gotoxy(29,28);
 cout<<"( Q=QUARTERLY, H=HALF YEARLY, Y=YEARLY)";
 gotoxy(25,30);
-cout<<"¯ POLICY TERM : ";
+cout<<"Â¯ POLICY TERM : ";
  
 a:gotoxy(34,8);
 gets(custm[i].nam);
@@ -713,12 +702,12 @@ clrscr();
 gotoxy(30,3);
 cout<<"Your details are : ";
 gotoxy(25,6);
-cout<<"¯ NAME : ";
+cout<<"Â¯ NAME : ";
 puts(custm[i].nam);
 gotoxy(25,8);
-cout<<"¯ AGE : "<<custm[i].age;
+cout<<"Â¯ AGE : "<<custm[i].age;
 gotoxy(25,10);
-cout<<"¯ ADDRESS : ";
+cout<<"Â¯ ADDRESS : ";
 gotoxy(29,12);
 cout<<"* HOUSE NO. : ";
 puts(custm[i].addcust.hno);
@@ -732,17 +721,17 @@ gotoxy(29,18);
 cout<<"* STATE : ";
 puts(custm[i].addcust.stat);
 gotoxy(25,20);
-cout<<"¯ POLICY NAME : ";
+cout<<"Â¯ POLICY NAME : ";
 puts(custm[i].polbt);
 gotoxy(25,22);
 if(strcmp(pol.nam,"JEEVAN KISHORE"))
-	cout<<"¯ SALARY : Rs. "<<custm[i].sal;
+	cout<<"Â¯ SALARY : Rs. "<<custm[i].sal;
 gotoxy(25,24);
-cout<<"¯ POLICY AMOUNT : Rs. "<<custm[i].polamt;
+cout<<"Â¯ POLICY AMOUNT : Rs. "<<custm[i].polamt;
 gotoxy(25,26);
-cout<<"¯ POLICY TERM : "<<custm[i].polterm<<" years";
+cout<<"Â¯ POLICY TERM : "<<custm[i].polterm<<" years";
 gotoxy(25,28);
-cout<<"¯ MODE OF PAYMENT : ";
+cout<<"Â¯ MODE OF PAYMENT : ";
 switch(custm[i].mod_pay)
 {
 case 'Y':cout<<"YEARLY";
@@ -752,9 +741,9 @@ case 'H':cout<<"HALF YEARLY";
 case 'Q':cout<<"QUARTERLY";
 }
 gotoxy(25,30);
-cout<<"¯ PREMIUM : Rs. "<<custm[i].prem<<" per annum";
+cout<<"Â¯ PREMIUM : Rs. "<<custm[i].prem<<" per annum";
 gotoxy(25,32);
-cout<<"¯ CUSTOMER CODE : "<<custm[i].code;
+cout<<"Â¯ CUSTOMER CODE : "<<custm[i].code;
  
 getch();
 cusmen();
@@ -817,12 +806,12 @@ for(int i=0;i&lt;15;i++)
 	{
 		flag=1;
 		gotoxy(25,10);
-		cout< <"¯ NAME : ";
+		cout< <"Â¯ NAME : ";
 		puts(custm[i].nam);
 		gotoxy(25,12);
-		cout<<"¯ AGE : "<<custm[i].age;
+		cout<<"Â¯ AGE : "<<custm[i].age;
 		gotoxy(25,14);
-		cout<<"¯ ADDRESS : ";
+		cout<<"Â¯ ADDRESS : ";
 		gotoxy(29,16);
 		cout<<"* HOUSE NO. : ";
 		puts(custm[i].addcust.hno);
@@ -836,16 +825,16 @@ for(int i=0;i&lt;15;i++)
 		cout<<"* STATE : ";
 		puts(custm[i].addcust.stat);
 		gotoxy(25,24);
-		cout<<"¯ POLICY NAME : ";
+		cout<<"Â¯ POLICY NAME : ";
 		puts(custm[i].polbt);
 		gotoxy(25,26);
-		cout<<"¯ SALARY : Rs. "<<custm[i].sal;
+		cout<<"Â¯ SALARY : Rs. "<<custm[i].sal;
 		gotoxy(25,28);
-		cout<<"¯ POLICY AMOUNT : Rs. "<<custm[i].polamt;
+		cout<<"Â¯ POLICY AMOUNT : Rs. "<<custm[i].polamt;
 		gotoxy(25,30);
-		cout<<"¯ POLICY TERM : "<<custm[i].polterm<<" years";
+		cout<<"Â¯ POLICY TERM : "<<custm[i].polterm<<" years";
 		gotoxy(25,32);
-		cout<<"¯ MODE OF PAYMENT : ";
+		cout<<"Â¯ MODE OF PAYMENT : ";
 		switch(custm[i].mod_pay)
 		{
 			case 'Y':cout<<"YEARLY";
@@ -855,7 +844,7 @@ for(int i=0;i&lt;15;i++)
 			case 'Q':cout<<"QUARTERLY";
 		}
 		gotoxy(25,34);
-		cout<<"¯ PREMIUM : Rs. "<<custm[i].prem<<" per annum";
+		cout<<"Â¯ PREMIUM : Rs. "<<custm[i].prem<<" per annum";
  
 		getch();
 		cusmen();
@@ -965,11 +954,11 @@ cout<<"NEW AGENT FORM";
 gotoxy(25,6);
 cout<<"Please enter the following details : ";
 gotoxy(25,8);
-cout<<"¯ NAME : ";
+cout<<"Â¯ NAME : ";
 gotoxy(25,10);
-cout<<"¯ AGE : ";
+cout<<"Â¯ AGE : ";
 gotoxy(25,12);
-cout<<"¯ ADDRESS : ";
+cout<<"Â¯ ADDRESS : ";
 gotoxy(29,14);
 cout<<"* HOUSE NO. : ";
 gotoxy(29,16);
@@ -979,9 +968,9 @@ cout<<"* CITY : ";
 gotoxy(29,20);
 cout<<"* STATE : ";
 gotoxy(25,22);
-cout<<"¯ SALARY : ";
+cout<<"Â¯ SALARY : ";
 gotoxy(25,24);
-cout<<"¯ POLICIES SOLD : ";
+cout<<"Â¯ POLICIES SOLD : ";
  
 x:gotoxy(34,8);
 gets(agnt[i].nam);
@@ -1050,14 +1039,14 @@ clrscr();
 gotoxy(34,3);
 cout< <"Your details are : ";
 gotoxy(25,6);
-cout<<"¯ NAME : ";
+cout<<"Â¯ NAME : ";
 puts(agnt[i].nam);
 gotoxy(25,8);
-cout<<"¯ AGE : "<<agnt[i].age;
+cout<<"Â¯ AGE : "<<agnt[i].age;
 gotoxy(25,10);
-cout<<"¯ SALARY : Rs. "<<agnt[i].sal;
+cout<<"Â¯ SALARY : Rs. "<<agnt[i].sal;
 gotoxy(25,12);
-cout<<"¯ ADDRESS : ";
+cout<<"Â¯ ADDRESS : ";
 gotoxy(29,14);
 cout<<"* HOUSE NO. : ";
 puts(agnt[i].addagn.hno);
@@ -1071,12 +1060,12 @@ gotoxy(29,20);
 cout<<"* STATE : ";
 puts(agnt[i].addagn.stat);
 gotoxy(25,22);
-cout<<"¯ POLICIES SOLD : "<<agnt[i].polsld;
+cout<<"Â¯ POLICIES SOLD : "<<agnt[i].polsld;
 gotoxy(25,24);
-cout<<"¯ AGENT CATEGORY : ";
+cout<<"Â¯ AGENT CATEGORY : ";
 puts(agnt[i].categ);
 gotoxy(25,26);
-cout<<"¯ AGENT CODE : "<<agnt[i].code;
+cout<<"Â¯ AGENT CODE : "<<agnt[i].code;
  
 getch();
 agnmen();
@@ -1100,10 +1089,10 @@ for(int i=0;i&lt;15;i++)
 	{
 		flag=1;
 		gotoxy(25,9);
-		cout< <"¯ NAME : ";
+		cout< <"Â¯ NAME : ";
 		cout<<agnt[i].nam;
 		gotoxy(25,11);
-		cout<<"¯ ADDRESS : ";
+		cout<<"Â¯ ADDRESS : ";
 		gotoxy(29,13);
 		cout<<"* HOUSE NO. : ";
 		puts(agnt[i].addagn.hno);
@@ -1117,13 +1106,13 @@ for(int i=0;i&lt;15;i++)
 		cout<<"* STATE : ";
 		puts(agnt[i].addagn.stat);
 		gotoxy(25,21);
-		cout<<"¯ POLICIES SOLD : ";
+		cout<<"Â¯ POLICIES SOLD : ";
 		cout<<agnt[i].polsld;
 		gotoxy(25,23);
-		cout<<"¯ AGENT CATEGORY : ";
+		cout<<"Â¯ AGENT CATEGORY : ";
 		puts(agnt[i].categ);
 		gotoxy(25,25);
-		cout<<"¯ SALARY : Rs. ";
+		cout<<"Â¯ SALARY : Rs. ";
 		cout<<agnt[i].sal;
 		getch();
 		agnmen();
@@ -1166,7 +1155,7 @@ cout<<"TERMS & CONDITIONS FOR AGENT";
 gotoxy(25,6);
 cout<<"$$$$$$$$$$$$$$$$$$$$$$$$$$$$";
 gotoxy(15,10);
-cout<<"¯ MINIMUM ELIGIBILITY FOR LIFE INSURANCE AGENCY";
+cout<<"Â¯ MINIMUM ELIGIBILITY FOR LIFE INSURANCE AGENCY";
 gotoxy(19,12);
 cout<<"* QUALIFICATION : 12th class passed";
 gotoxy(19,14);
@@ -1176,13 +1165,13 @@ cout<<"* Applicant should have passed the online exam";
 gotoxy(21,18);
 cout<<"conducted by NSE-IT";
 gotoxy(15,22);
-cout<<"¯ AGENT'S LICENSE is issued for 3 years in the";
+cout<<"Â¯ AGENT'S LICENSE is issued for 3 years in the";
 gotoxy(17,24);
 cout<<"beginning and renewed thereafter for another 3 years";
 gotoxy(17,26);
 cout<<"after the completion of 25 hours of Agent's training.";
 gotoxy(15,30);
-cout<<"¯ BUSINESS CONDITION FOR THE AGENCY ENFORCED";
+cout<<"Â¯ BUSINESS CONDITION FOR THE AGENCY ENFORCED";
 gotoxy(19,32);
 cout<<"* 12 lives with 1 lac sum assured";
 gotoxy(19,34);
@@ -1350,5 +1339,5 @@ getch();
 return x;
 }
 //////*********************************************\\\\\\
-//////*  ¯           END OF PROGRAM            ®  *\\\\\\
+//////*  Â¯           END OF PROGRAM            Â®  *\\\\\\
 //////*********************************************\\\\\\
